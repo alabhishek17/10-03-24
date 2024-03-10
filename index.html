@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .right div {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+            /* justify-content: center; */
+        }
+
+        .right {
+            border: 2px solid blue;
+            width: 50%;
+            padding: 30px;
+        }
+
+        .left {
+            border: 2px solid green;
+            width: 40%;
+            margin-left: 30px;
+            padding: 30px;
+        }
+
+        .main {
+            display: flex;
+            padding: 20px;
+
+        }
+
+        .main button {
+            height: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="right">
+            <h1>product</h1>
+            <div id="cart">
+                <h4 class="p1">product-1</h4>
+                <p class="pr1">100</p>
+                <button class="add">+</button>
+                <p class="quntity">0</p>
+                <button class="sub">-</button>
+            </div>
+            <div>
+
+                <h4>product-2</h4>
+                <p>100</p>
+                <button class="add">+</button>
+                <p class="quntity">0</p>
+                <button class="sub">-</button>
+            </div>
+            <div>
+
+                <h4>product-3</h4>
+                <p>100</p>
+                <button class="add">+</button>
+                <p class="quntity">0</p>
+                <button class="sub">-</button>
+            </div>
+        </div>
+
+        <div class="left">
+            <h1>chart</h1>
+            <p>no product added</p>
+
+        </div>
+    </div>
+    <script src="./javascript.js"></script>
+</body>
+
+</html>
